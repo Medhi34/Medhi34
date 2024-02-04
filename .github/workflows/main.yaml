@@ -35,7 +35,7 @@ jobs:
           commit_options: "--no-verify --signoff"
           file_pattern: .
           repository: .
-          commit_user_name: TOMBI Medhi
+          commit_user_name: Medhi34
           commit_user_email: medhitombi@yahoo.com
           commit_author: TOMBI Medhi <medhitombi@yahoo.com>
           add_options: "--all"
