@@ -28,17 +28,6 @@ jobs:
       - name: Generate README file
         run: node index.js
       - name: Commit and Push new README.md to the repository
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Apply automatic changes
-          branch: master
-          commit_options: "--no-verify --signoff"
-          file_pattern: .
-          repository: .
-          commit_user_name: Medhi34
-          commit_user_email: medhitombi@yahoo.com
-          commit_author: TOMBI Medhi <medhitombi@yahoo.com>
-          add_options: "--all"
-          push_options: "--force"
+        uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
