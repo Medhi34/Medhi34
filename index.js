@@ -8,7 +8,16 @@ const MUSTACHE_MAIN_DIR = './index.mustache';
   * Notice the "full_name" property.
 */
 let DATA = {
-  full_name: 'TOMBI'
+  full_name: 'TOMBI Medhi',
+  refresh_date: new Date().toLocaleDateString("en-EN", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    timeZoneName: "short",
+    timeZone: "africa/Douala",
+  }),
 };
 
 /**
