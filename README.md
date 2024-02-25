@@ -9,7 +9,7 @@ Web developer & aspiring data engineer
 *   🌍  I'm based in Yaoundé, Cameroun
 *   ✉️  You can contact me at [medhitombi@yahoo.com](mailto:medhitombi@yahoo.com)
 *   🔭 I’m currently working on something cool
-*   🌱 I’m currently learning Software Engineering
+*   🌱 I’m currently learning Software Engineering and Data Engineering
 *   💬 Ask me about anything related to Django & Laravel
 *   ⚡ Fun fact: I love football
 
